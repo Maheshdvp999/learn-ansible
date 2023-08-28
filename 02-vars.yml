@@ -6,4 +6,4 @@
     - name: Print Variable
       ansible.builtin.debug:
         msg: URL = {{ URL }}
-#ANSIBLE ACCESS varible with double flower brackets
+#ANSIBLE ACCESS varible with two flower brackets
