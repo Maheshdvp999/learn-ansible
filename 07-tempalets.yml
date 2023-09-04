@@ -1,0 +1,9 @@
+- name: Tempalate Demo
+  hosts: localhost
+  connection: local
+  vars:
+    fruit_name: Apple
+  tasks:
+    - ansible.builtin.tempalate:
+        src: test.txt
+        dest: /tmp/test.txt
